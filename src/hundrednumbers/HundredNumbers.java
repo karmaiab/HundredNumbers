@@ -27,6 +27,8 @@ public class HundredNumbers {
         System.out.println("Ones:" +ones);
         int tens = number/10%10;
         System.out.println("Tens:" +tens);
+        int hundreds = number/100;
+        System.out.println("Hundreds:" +hundreds);
     }
     
 }
