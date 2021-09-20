@@ -29,6 +29,8 @@ public class HundredNumbers {
         System.out.println("Tens:" +tens);
         int hundreds = number/100;
         System.out.println("Hundreds:" +hundreds);
+        int sum = ones+tens+hundreds;
+        System.out.println("The sum is:" +sum);
     }
     
 }
