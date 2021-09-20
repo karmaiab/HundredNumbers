@@ -23,6 +23,8 @@ public class HundredNumbers {
         number = scanner.nextInt();
         System.out.printf(String.join("%n",
                 "The number: %1$-5d"), number);
+        int ones = number%10;
+        System.out.println("Ones:" +ones);
     }
     
 }
