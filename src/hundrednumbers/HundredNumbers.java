@@ -25,6 +25,8 @@ public class HundredNumbers {
                 "The number: %1$-5d"), number);
         int ones = number%10;
         System.out.println("Ones:" +ones);
+        int tens = number/10%10;
+        System.out.println("Tens:" +tens);
     }
     
 }
